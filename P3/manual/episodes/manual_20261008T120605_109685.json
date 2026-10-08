@@ -1,0 +1,205 @@
+{
+  "source": "manual_keyboard_cartesian",
+  "started_utc": "2026-10-08T12:03:17.348666+00:00",
+  "seed": 42,
+  "reason": "environment_success",
+  "success": true,
+  "steps": 135,
+  "elapsed_s": 167.8314822709999,
+  "simulation_s": 6.75,
+  "key_events": [
+    {
+      "key": 258,
+      "elapsed_s": 29.168707930999517,
+      "before_step": 0
+    },
+    {
+      "key": 84,
+      "elapsed_s": 29.29449418600052,
+      "before_step": 0
+    },
+    {
+      "key": 67,
+      "elapsed_s": 29.427851239999654,
+      "before_step": 0
+    },
+    {
+      "key": 83,
+      "elapsed_s": 29.700669527001082,
+      "before_step": 0
+    },
+    {
+      "key": 83,
+      "elapsed_s": 30.4221605849998,
+      "before_step": 4
+    },
+    {
+      "key": 83,
+      "elapsed_s": 31.207561074001205,
+      "before_step": 8
+    },
+    {
+      "key": 83,
+      "elapsed_s": 32.02261234599973,
+      "before_step": 12
+    },
+    {
+      "key": 83,
+      "elapsed_s": 32.86432623899964,
+      "before_step": 16
+    },
+    {
+      "key": 83,
+      "elapsed_s": 33.70298207900123,
+      "before_step": 20
+    },
+    {
+      "key": 65,
+      "elapsed_s": 34.54289369900107,
+      "before_step": 24
+    },
+    {
+      "key": 65,
+      "elapsed_s": 35.37381768200066,
+      "before_step": 28
+    },
+    {
+      "key": 65,
+      "elapsed_s": 36.27025581599992,
+      "before_step": 32
+    },
+    {
+      "key": 65,
+      "elapsed_s": 37.11129051700118,
+      "before_step": 36
+    },
+    {
+      "key": 67,
+      "elapsed_s": 37.96005391499966,
+      "before_step": 40
+    },
+    {
+      "key": 65,
+      "elapsed_s": 37.96007964400087,
+      "before_step": 40
+    },
+    {
+      "key": 46,
+      "elapsed_s": 38.769140042999425,
+      "before_step": 44
+    },
+    {
+      "key": 67,
+      "elapsed_s": 87.81401968600039,
+      "before_step": 54
+    },
+    {
+      "key": 81,
+      "elapsed_s": 87.95445318200109,
+      "before_step": 54
+    },
+    {
+      "key": 81,
+      "elapsed_s": 88.75527914899976,
+      "before_step": 58
+    },
+    {
+      "key": 81,
+      "elapsed_s": 89.52723554499971,
+      "before_step": 62
+    },
+    {
+      "key": 67,
+      "elapsed_s": 90.50141621900002,
+      "before_step": 66
+    },
+    {
+      "key": 46,
+      "elapsed_s": 90.50142965899977,
+      "before_step": 66
+    },
+    {
+      "key": 66,
+      "elapsed_s": 92.51062721200105,
+      "before_step": 76
+    },
+    {
+      "key": 32,
+      "elapsed_s": 124.66853085399998,
+      "before_step": 76
+    },
+    {
+      "key": 46,
+      "elapsed_s": 125.88995845799946,
+      "before_step": 82
+    },
+    {
+      "key": 67,
+      "elapsed_s": 127.79055273300037,
+      "before_step": 92
+    },
+    {
+      "key": 69,
+      "elapsed_s": 127.79056659399976,
+      "before_step": 92
+    },
+    {
+      "key": 69,
+      "elapsed_s": 128.5649459010001,
+      "before_step": 96
+    },
+    {
+      "key": 69,
+      "elapsed_s": 129.4286808350007,
+      "before_step": 100
+    },
+    {
+      "key": 69,
+      "elapsed_s": 130.25496490499972,
+      "before_step": 104
+    },
+    {
+      "key": 67,
+      "elapsed_s": 131.08131317100015,
+      "before_step": 108
+    },
+    {
+      "key": 46,
+      "elapsed_s": 131.08134582899947,
+      "before_step": 108
+    },
+    {
+      "key": 67,
+      "elapsed_s": 164.020111885,
+      "before_step": 118
+    },
+    {
+      "key": 87,
+      "elapsed_s": 164.3458960730004,
+      "before_step": 118
+    },
+    {
+      "key": 87,
+      "elapsed_s": 165.14784300000065,
+      "before_step": 122
+    },
+    {
+      "key": 68,
+      "elapsed_s": 165.96735399499994,
+      "before_step": 126
+    },
+    {
+      "key": 68,
+      "elapsed_s": 166.77817245299957,
+      "before_step": 130
+    },
+    {
+      "key": 68,
+      "elapsed_s": 167.5775832420004,
+      "before_step": 134
+    }
+  ],
+  "outcome": "success",
+  "control_uses_cube_or_target_positions": false,
+  "physics_paused_between_commands": true
+}

@@ -1,0 +1,130 @@
+{
+  "source": "manual_keyboard_cartesian",
+  "started_utc": "2026-10-08T11:57:20.601480+00:00",
+  "seed": 42,
+  "reason": "failed_save",
+  "success": false,
+  "steps": 102,
+  "elapsed_s": 237.7025452550006,
+  "simulation_s": 5.1000000000000005,
+  "key_events": [
+    {
+      "key": 258,
+      "elapsed_s": 33.166388225001356,
+      "before_step": 0
+    },
+    {
+      "key": 83,
+      "elapsed_s": 33.437366648000534,
+      "before_step": 0
+    },
+    {
+      "key": 83,
+      "elapsed_s": 34.20073413099999,
+      "before_step": 4
+    },
+    {
+      "key": 83,
+      "elapsed_s": 34.9228637690012,
+      "before_step": 8
+    },
+    {
+      "key": 46,
+      "elapsed_s": 35.63535250300083,
+      "before_step": 12
+    },
+    {
+      "key": 83,
+      "elapsed_s": 88.90124727900002,
+      "before_step": 22
+    },
+    {
+      "key": 83,
+      "elapsed_s": 89.84206759000153,
+      "before_step": 26
+    },
+    {
+      "key": 83,
+      "elapsed_s": 90.71244012100033,
+      "before_step": 30
+    },
+    {
+      "key": 67,
+      "elapsed_s": 91.52407567900082,
+      "before_step": 34
+    },
+    {
+      "key": 81,
+      "elapsed_s": 91.52409243400143,
+      "before_step": 34
+    },
+    {
+      "key": 81,
+      "elapsed_s": 92.31806548300119,
+      "before_step": 38
+    },
+    {
+      "key": 81,
+      "elapsed_s": 93.12463368700082,
+      "before_step": 42
+    },
+    {
+      "key": 67,
+      "elapsed_s": 93.88625353800126,
+      "before_step": 46
+    },
+    {
+      "key": 46,
+      "elapsed_s": 93.88627153400012,
+      "before_step": 46
+    },
+    {
+      "key": 32,
+      "elapsed_s": 182.91249904000142,
+      "before_step": 56
+    },
+    {
+      "key": 46,
+      "elapsed_s": 184.31777509900166,
+      "before_step": 62
+    },
+    {
+      "key": 69,
+      "elapsed_s": 186.5233870910015,
+      "before_step": 72
+    },
+    {
+      "key": 69,
+      "elapsed_s": 187.30892932700044,
+      "before_step": 76
+    },
+    {
+      "key": 69,
+      "elapsed_s": 188.08196675600084,
+      "before_step": 80
+    },
+    {
+      "key": 69,
+      "elapsed_s": 188.88713613800064,
+      "before_step": 84
+    },
+    {
+      "key": 69,
+      "elapsed_s": 189.7252227530007,
+      "before_step": 88
+    },
+    {
+      "key": 46,
+      "elapsed_s": 190.49292005200004,
+      "before_step": 92
+    },
+    {
+      "key": 70,
+      "elapsed_s": 237.64766211999995,
+      "before_step": 102
+    }
+  ],
+  "outcome": "cube not lifted",
+  "control_uses_cube_or_target_positions": false,
+  "physics_paused_between_commands": true
+}
