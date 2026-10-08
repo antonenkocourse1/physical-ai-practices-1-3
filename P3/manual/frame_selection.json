@@ -1,0 +1,21 @@
+{
+  "source_npz": "manual_20261008T120605_109685.npz",
+  "source_sha256": "6b2328218272d71a2d95f4812be56da2cb631b49030f4ae55d52e4182aac87a4",
+  "montage_state_indices": [
+    0,
+    24,
+    54,
+    76,
+    82,
+    92,
+    108,
+    118,
+    126,
+    130,
+    134,
+    135
+  ],
+  "video_frames": 136,
+  "video_fps": 20,
+  "video_semantics": "Initial obs followed by every next_obs; simulation-time playback, not native-GUI screen capture or wall-time video."
+}

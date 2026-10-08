@@ -1,0 +1,89 @@
+{
+  "audit_utc": "2026-10-08T12:13:52.847099+00:00",
+  "runtime": {
+    "python": "3.12.14",
+    "mujoco": "3.5.0",
+    "torch": "2.6.0+cpu"
+  },
+  "episodes": [
+    {
+      "file": "manual_20261008T120118_249353.npz",
+      "sha256": "db46b34e57ac324830c62e2b0ef811f3550c7abc44c95e59d5349a0714940ff1",
+      "steps": 102,
+      "key_events": 23,
+      "success": false,
+      "elapsed_wall_s": 237.7025452550006,
+      "simulation_s": 5.1000000000000005,
+      "reason": "failed_save",
+      "final_cube_xyz_m": [
+        0.3749080300331116,
+        0.13521429896354675,
+        0.4199388027191162
+      ],
+      "final_target_xyz_m": [
+        0.4463987946510315,
+        0.02959754504263401,
+        0.550000011920929
+      ],
+      "final_cube_target_distance_m": 0.18215857446193695,
+      "final_cube_height_m": 0.4199388027191162,
+      "success_steps_1_based": [],
+      "max_key_target_reconstruction_error_m": 0.0,
+      "cached_kinematics_action_reconstruction_max_difference": 3.44571890309453e-06,
+      "action_crosscheck_note": "Offline reconstruction uses qpos-dt*qvel for cached pre-integration Jacobians, then restores recorded qpos for action calculation. Matches within 1e-5 action units (float32 state precision); no physics rollout.",
+      "checks": "Shapes, dtypes, finite values, frame alignment, times, actual geometric success, env termination, action bounds, exact keys-to-targets lineage and cached-kinematics action reconstruction within 1e-5 PASS"
+    },
+    {
+      "file": "manual_20261008T120605_109685.npz",
+      "sha256": "6b2328218272d71a2d95f4812be56da2cb631b49030f4ae55d52e4182aac87a4",
+      "steps": 135,
+      "key_events": 38,
+      "success": true,
+      "elapsed_wall_s": 167.8314822709999,
+      "simulation_s": 6.75,
+      "reason": "environment_success",
+      "final_cube_xyz_m": [
+        0.4301010072231293,
+        0.0645647943019867,
+        0.5258151292800903
+      ],
+      "final_target_xyz_m": [
+        0.4463987946510315,
+        0.02959754504263401,
+        0.550000011920929
+      ],
+      "final_cube_target_distance_m": 0.04553278908133507,
+      "final_cube_height_m": 0.5258151292800903,
+      "success_steps_1_based": [
+        135
+      ],
+      "max_key_target_reconstruction_error_m": 0.0,
+      "cached_kinematics_action_reconstruction_max_difference": 3.7490390241146088e-06,
+      "action_crosscheck_note": "Offline reconstruction uses qpos-dt*qvel for cached pre-integration Jacobians, then restores recorded qpos for action calculation. Matches within 1e-5 action units (float32 state precision); no physics rollout.",
+      "checks": "Shapes, dtypes, finite values, frame alignment, times, actual geometric success, env termination, action bounds, exact keys-to-targets lineage and cached-kinematics action reconstruction within 1e-5 PASS"
+    }
+  ],
+  "raw_source_sha256": {
+    "manual_gui_20261008/episodes/manual_20261008T120605_109685.npz": "6b2328218272d71a2d95f4812be56da2cb631b49030f4ae55d52e4182aac87a4",
+    "manual_gui_20261008/episodes/manual_20261008T120605_109685.json": "f2651063dbfef6a9de8fd45f833cb4cf7dd09b4cf0772b30e1b2dc9fa4887f9b",
+    "manual_gui_20261008/episodes/manual_20261008T120118_249353.json": "1b4e9005449ffdf676e049a5db1de38345fef2e18b06f3ce743e0574893b7b4e",
+    "manual_gui_20261008/episodes/manual_20261008T120118_249353.npz": "db46b34e57ac324830c62e2b0ef811f3550c7abc44c95e59d5349a0714940ff1",
+    "manual_gui_20261008/manual_cartesian.py": "862e177b4dc4e4c4a86557eedffe780687a0102a1c775b223f38e5028a734ab2",
+    "manual_gui_20261008/test_manual_cartesian.py": "1f56113e0eb8f9f87ac86e8feb0cdcbc9351dba9a55576b35e12816af567fb57",
+    "manual_gui_20261008/core_tests.log": "3b824d85eb3f54b7555297bcb79e24393c0825caae9a3146f8297f9aae83b67a",
+    "manual_gui_20261008/README.md": "d34c82bd89a73e469ee7fb01f5b59b9dfa26289d1b4dbd83dc3b70b06aa78233",
+    "manual_gui_20261008/launch_manual.sh": "c0040906f84d69cd2b6aeefba0a2bc67d87eeb38ef290f6d75db67f6542fbd66",
+    "manual_gui_20261008/teleop.log": "6dcf12eaac4dc9d1f2fd1080f3c5becd66f95116194ab0e1d8fb3f624b6e3a70",
+    "manual_gui_20261008/start_time.txt": "3c9f2ab0268aec64d9ff95f06410cedc290675200953cb45073d02c7ffdc99a5",
+    "manual_gui_20261008/cartesian_gui.log": "e0dcf1dc95b38433aba4f2ff6f7b53cc40aff3af46a008cd0180fe7f9e5862ff",
+    "working/teleop.py": "23b5b1ed856c27b45f58f0484538f22260aea512fb92b5604772e893b7d2f512",
+    "working/env.py": "5093baea7e7149f030fd835c4dcbf87be69f1fdf4ce924e506afb11780ae0274",
+    "working/rollout_diagnostics.py": "91f65964fc1ce9899140678dd462673213f31066999e66e10091b6fb21bd6535"
+  },
+  "limits": [
+    "Offline validation does not authenticate who pressed the keys. Parent GUI operator reports assistant-operated native GUI, not learner-operated.",
+    "First helper attempt used same Cartesian control before camera usability patch; archived helper is final version.",
+    "Original starter log contains two episode starts, first explicitly cancelled; second has no saved trajectory or terminal outcome in that log.",
+    "No expert policy invoked in audit; no physics rollout or training."
+  ]
+}
